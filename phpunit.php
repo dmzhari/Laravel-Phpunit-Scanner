@@ -4,7 +4,6 @@ define("merah","\e[31m");
 define("biru","\e[1;34m");
 define('kuning',"\e[1;33m");
 	class PhpUnit{
-		public $site;
 		public function Save($save,$name){
 			$result = fopen($name, "a+");
 			fwrite($result, "$save\n");
