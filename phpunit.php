@@ -65,7 +65,7 @@ define('kuning',"\e[1;33m");
 					foreach ($domain as $env) {
 						$this->MassLaravel($env);
 					}
-					break;
+				break;
 				case '2':
 					echo hijau."Your Site => ";
 					$our = trim(fgets(STDIN));
@@ -73,7 +73,7 @@ define('kuning',"\e[1;33m");
 				break;
 				default:
 					echo "What happened??";
-					break;
+				break;
 			}
 		}
 	}
